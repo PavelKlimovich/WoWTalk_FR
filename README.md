@@ -19,9 +19,9 @@ Il est léger, rapide et totalement personnalisable.
 ## 🛠️ Installation
 
 1. Téléchargez l'archive de l'addon (ou clonez ce dépôt GitHub).
-2. Copiez le dossier **WoWTalk_FR_FR** dans : Interface/AddOns/
+2. Copiez le dossier **WoWTalk_FR** dans : Interface/AddOns/
 3. Redémarrez votre jeu **(ou faites un `/reload`)**.
-4. Activez **WoWTalk_FR FR** dans le menu AddOns en jeu.
+4. Activez **WoWTalk_FR** dans le menu AddOns en jeu.
 
 ---
 
