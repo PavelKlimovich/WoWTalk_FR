@@ -1,6 +1,6 @@
-# WoWTalk_FR FR - Addon WoW Classic
+# WoWTalk_FR - Addon WoW Classic
 
-**WoWTalk_FR FR** est un addon World of Warcraft Classic qui traduit automatiquement les messages du chat en français, tout en gérant les fautes de frappe grâce à une recherche de mots similaires.  
+**WoWTalk_FR** est un addon World of Warcraft Classic qui traduit automatiquement les messages du chat en français, tout en gérant les fautes de frappe grâce à une recherche de mots similaires.  
 Il est léger, rapide et totalement personnalisable.
 
 ---
