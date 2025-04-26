@@ -1,0 +1,61 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Frame name="WoWTalk_FRViewer" parent="UIParent" hidden="true" enableMouse="true" movable="true" inherits="UIPanelDialogTemplate, BackdropTemplate">
+        <Size x="500" y="400"/>
+        <Anchors>
+            <Anchor point="CENTER"/>
+        </Anchors>
+
+        <Frames>
+            <ScrollFrame name="$parentScrollFrame" inherits="UIPanelScrollFrameTemplate">
+                <Size x="440" y="280"/>
+                <Anchors>
+                    <Anchor point="TOPLEFT" x="30" y="-40"/>
+                </Anchors>
+                <Frames>
+                    <SimpleHTML name="$parentScrollChild">
+                        <Size x="440" y="280"/>
+                        <Anchors>
+                            <Anchor point="TOPLEFT"/>
+                        </Anchors>
+                        <FontString inherits="GameFontHighlightSmall"/>
+                    </SimpleHTML>
+                </Frames>
+            </ScrollFrame>
+
+            <Button name="$parentClearButton" inherits="UIPanelButtonTemplate" text="Vider">
+                <Size x="100" y="25"/>
+                <Anchors>
+                    <Anchor point="BOTTOMLEFT" x="60" y="10"/>
+                </Anchors>
+                <Scripts>
+                    <OnClick>
+                        WoWTalk_FRViewer_ClearMessages()
+                    </OnClick>
+                </Scripts>
+            </Button>
+
+            <Button name="$parentCloseButton" inherits="UIPanelButtonTemplate" text="Fermer">
+                <Size x="100" y="25"/>
+                <Anchors>
+                    <Anchor point="BOTTOMRIGHT" x="-60" y="10"/>
+                </Anchors>
+                <Scripts>
+                    <OnClick>
+                        WoWTalk_FRViewer:Hide()
+                    </OnClick>
+                </Scripts>
+            </Button>
+        </Frames>
+
+        <Scripts>
+            <OnLoad>
+                WoWTalk_FRViewer:SetMovable(true)
+                WoWTalk_FRViewer:EnableMouse(true)
+                WoWTalk_FRViewer:RegisterForDrag("LeftButton")
+                WoWTalk_FRViewer:SetScript("OnDragStart", WoWTalk_FRViewer.StartMoving)
+                WoWTalk_FRViewer:SetScript("OnDragStop", WoWTalk_FRViewer.StopMovingOrSizing)
+                WoWTalk_FRViewerScrollFrame:SetScrollChild(WoWTalk_FRViewerScrollFrameScrollChild)
+            </OnLoad>
+        </Scripts>
+    </Frame>
+</Ui>

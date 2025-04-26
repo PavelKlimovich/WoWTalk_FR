@@ -1,0 +1,15 @@
+## Interface: 11507
+## Title: WoWTalk_FR
+## Notes: Traduction du chat WoW
+## Author: Tramort
+## Version: 1.0
+
+Dictionaries/dictionary_combat.lua
+Dictionaries/dictionary_commerce.lua
+Dictionaries/dictionary_professions.lua
+Dictionaries/dictionary_social.lua
+Dictionaries/dictionary_items.lua
+Dictionaries/dictionary_game.lua
+
+WoWTalk_FR.lua
+WoWTalk_FRViewer.xml
