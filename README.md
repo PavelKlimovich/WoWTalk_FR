@@ -19,9 +19,9 @@ Il est léger, rapide et totalement personnalisable.
 ## 🛠️ Installation
 
 1. Téléchargez l'archive de l'addon (ou clonez ce dépôt GitHub).
-2. Copiez le dossier **ChatTranslator** dans : Interface/AddOns/
+2. Copiez le dossier **WoWTalk_FR** dans : Interface/AddOns/
 3. Redémarrez votre jeu **(ou faites un `/reload`)**.
-4. Activez **ChatTranslator** dans le menu AddOns en jeu.
+4. Activez **WoWTalk FR** dans le menu AddOns en jeu.
 
 ---
 
@@ -29,9 +29,7 @@ Il est léger, rapide et totalement personnalisable.
 
 - Cliquez sur le bouton **CT Viewer** en haut à gauche de votre écran pour ouvrir la fenêtre de traduction.
 - Ou utilisez la commande : **/ctviewer**
-- Dans la fenêtre :
-- Vous verrez le message original du chat.
-- Juste en dessous, sa traduction en français.
+- Dans la fenêtre vous verrez le message original du chat et juste en dessous, sa traduction en français.
 
 Les mots traduits apparaissent en **vert**, les mots inconnus restent en **blanc**.
 
